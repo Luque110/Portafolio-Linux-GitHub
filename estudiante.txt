@@ -1,0 +1,15 @@
+*(Escribe el contenido de la actividad 4, guarda y sal)*.
+*   **Crear `comandos_linux.txt` (Pega este bloque completo para crearlo al instante):**
+    ```bash
+    cat << 'EOF' > comandos_linux.txt
+    pwd - Muestra la ruta absoluta del directorio de trabajo actual.
+    ls - Lista los archivos y carpetas del directorio actual.
+    ls -la - Lista todos los archivos, incluyendo ocultos, con detalles de permisos y tamaños.
+    mkdir - Crea uno o varios directorios nuevos en la ruta actual.
+    cd - Cambia el directorio de trabajo actual para navegar en el sistema.
+    touch - Crea un archivo vacío o actualiza la fecha de modificación de uno existente.
+    nano - Abre un editor de texto directo en la interfaz de la terminal.
+    git init - Inicializa un nuevo repositorio Git local en el directorio actual.
+    git status - Muestra el estado actual del árbol de trabajo y los archivos en seguimiento.
+    git log - Despliega el historial completo de commits realizados en el repositorio.
+    EOF
